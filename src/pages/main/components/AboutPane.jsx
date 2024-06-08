@@ -18,7 +18,7 @@ function AboutPane() {
         technologies including React, Rust, and JavaScript.
       </p>
       <p>
-        In my (rare) free time, I am likely playing with my dogs, watching movies with my wife, of writing music.
+        In my (rare) free time, I am likely playing with my dogs, watching movies with my wife, or writing music.
       </p>
     </Box>
   )
