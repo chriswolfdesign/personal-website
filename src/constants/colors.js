@@ -1,0 +1,1 @@
+export const TEXT_GRAY = "#c6bebe"
