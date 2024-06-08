@@ -14,7 +14,7 @@ function AboutPane() {
       </p>
       <p>
         For the majority of my career, I have enjoyed solving many problems, primarily in the Backend space.  My current
-        work has me primarily using Golang, Python, and Kubernetes.  During my personal study time I enjoy working with many
+        work has me using Golang, Python, and Kubernetes.  During my personal study time I enjoy working with many
         technologies including React, Rust, and JavaScript.
       </p>
       <p>

@@ -50,7 +50,7 @@ function ExperiencePanel(props) {
         <Box sx={dateStyle}>{props.data.time}</Box>
       </Grid>
       <Grid item xs={6}>
-        <Box sx={hover? hoverTitleStyle : titleStyle}>{props.data.title} / {props.data.company}</Box>
+        <Box sx={hover? hoverTitleStyle : titleStyle}>{props.data.title} | {props.data.company}</Box>
         <Box sx={summaryStyle}>{props.data.summary}</Box>
         <Box><TechnologyList technologies={props.data.technologies}/></Box>
       </Grid>

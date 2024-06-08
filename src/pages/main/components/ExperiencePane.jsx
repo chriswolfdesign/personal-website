@@ -3,7 +3,7 @@ import experienceData from "../../../data/ExperienceData.json";
 import ExperiencePanel from "./ExperiencePanel";
 
 const boxStyle = {
-  marginTop: 15
+  marginTop: 10
 }
 
 function ExperiencePane() {
