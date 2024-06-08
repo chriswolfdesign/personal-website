@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "title": "Cloud Engineer",
+      "company": "IBM",
+      "time": "August 2021 - PRESENT",
+      "summary": "Built a microservice application responsible for transporting and supervising logs.  Manage Kubernetes clusters and maintain Docker containers.  Write Go code capable of sending logs across network layers.",
+      "link": "https://www.ibm.com",
+      "technologies": [
+        "Go",
+        "Python",
+        "K8s",
+        "Docker",
+        "Terraform",
+        "IBM Cloud"
+      ]
+    },
+    {
+      "title": "Fullstack Software Engineer",
+      "company": "Quoin Inc",
+      "time": "May 2020 - August 2021",
+      "summary": "Worked on a variety number of projects from frontend to backend to mobile apps.  Consulted on a number of teams providing Agile experience.  Focused primarily on user-facing products.",
+      "link": "https://quoininc.com",
+      "technologies": [
+        "JavaScript",
+        "C#",
+        "Java",
+        "Dart"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "SAW Software",
+      "time": "May 2019 - August 2019",
+      "summary": "Assisted in building project reports for end users.  Shadowed with experienced software engineers learning about agile methodologies.  Refactored and optimized scripts for deployment purposes.",
+      "link": "http://sawsoftmill.com",
+      "technologies": [
+        "C#",
+        "Bash",
+        "JavaScript"
+      ]
+    }
+  ]
+}
