@@ -1,17 +1,20 @@
-import {Box} from "@mui/material";
+import { Box } from "@mui/material";
 import experienceData from "../../../data/ExperienceData.json";
 import ExperiencePanel from "./ExperiencePanel";
 
 const boxStyle = {
-  marginTop: 10
-}
+  marginTop: 10,
+};
 
 function ExperiencePane() {
   return (
-    <Box sx={boxStyle}>{experienceData.data.map(item => (
-      <ExperiencePanel data={item}/>
-    ))}</Box>
-  )
+    <Box sx={boxStyle}>
+      {experienceData.data.map((item) => (
+        <ExperiencePanel data={item} />
+      ))}
+    </Box>
+  );
 }
 
 export default ExperiencePane;
+

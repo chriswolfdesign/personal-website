@@ -1,4 +1,5 @@
-import { Box, Grid } from "@mui/material";
+import { Grid, Box } from "@mui/material";
+import { useState } from "react";
 import {
   BORDER_COLOR,
   TECH_ITEM_BACKGROUND,
@@ -6,15 +7,16 @@ import {
   TEXT_WHITE,
 } from "../../../constants/colors";
 import TechnologyList from "./TechnologyList";
-import { useState } from "react";
 
-const dateStyle = {
-  fontSize: 12,
+const imageStyle = {
+  height: 75,
+  width: 75,
+  borderRadius: "5%",
 };
 
 const gridStyle = {
-  textAlign: "left",
   marginBottom: 3,
+  textAlign: "left",
   padding: 1,
 };
 
@@ -35,7 +37,7 @@ const hoverTitleStyle = {
 
 const titleStyle = {
   color: TEXT_WHITE,
-  fontSize: 12,
+  fontSize: 11,
 };
 
 const summaryStyle = {
@@ -43,7 +45,7 @@ const summaryStyle = {
   fontSize: 11,
 };
 
-function ExperiencePanel(props) {
+function ProjectPanel(props) {
   const [hover, setHover] = useState(false);
   const enter = () => setHover(true);
   const leave = () => setHover(false);
@@ -58,12 +60,15 @@ function ExperiencePanel(props) {
       onClick={openLink}
     >
       <Grid item xs={4}>
-        <Box sx={dateStyle}>{props.data.time}</Box>
+        <Box
+          component="img"
+          sx={imageStyle}
+          alt="Image here"
+          src={props.data.image}
+        />
       </Grid>
       <Grid item xs={6}>
-        <Box sx={hover ? hoverTitleStyle : titleStyle}>
-          {props.data.title} | {props.data.company}
-        </Box>
+        <Box sx={hover ? hoverTitleStyle : titleStyle}>{props.data.title}</Box>
         <Box sx={summaryStyle}>{props.data.summary}</Box>
         <Box>
           <TechnologyList technologies={props.data.technologies} />
@@ -73,5 +78,4 @@ function ExperiencePanel(props) {
   );
 }
 
-export default ExperiencePanel;
-
+export default ProjectPanel;
