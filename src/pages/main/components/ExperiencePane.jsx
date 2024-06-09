@@ -8,7 +8,7 @@ const boxStyle = {
 
 function ExperiencePane() {
   return (
-    <Box sx={boxStyle}>
+    <Box id="experience" sx={boxStyle}>
       {experienceData.data.map((item) => (
         <ExperiencePanel data={item} />
       ))}
@@ -17,4 +17,3 @@ function ExperiencePane() {
 }
 
 export default ExperiencePane;
-
