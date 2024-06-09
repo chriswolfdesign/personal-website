@@ -1,9 +1,13 @@
 import { Grid } from "@mui/material";
 import Tab from "./Tab";
 
+const gridStyle = {
+  marginTop: 2,
+};
+
 function TabLine() {
   return (
-    <Grid container spacing={1}>
+    <Grid sx={gridStyle} container spacing={1}>
       <Grid item xs={2}>
         <Tab text="ABOUT" link="/#about" />
       </Grid>
