@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { TEXT_GRAY } from "../../../constants/colors";
 import ProfilePicture from "./ProfilePicture";
+import SocialIcons from "./SocialIcons";
 import TabLine from "./TabLine";
 
 const paragraphStyles = {
@@ -22,6 +23,7 @@ function LeftPane() {
       </p>
       <TabLine />
       <ProfilePicture />
+      <SocialIcons />
     </Box>
   );
 }
