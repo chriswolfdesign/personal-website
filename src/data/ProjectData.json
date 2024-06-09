@@ -19,8 +19,7 @@
       "title": "Chris Wolf Design",
       "link": "https://github.com/chriswolfdesign/personal-website",
       "summary": "The codebase for the webpage you're looking at now!  If you'd like to see how I've generated this page, come take a look!  I hope you have enjoyed browsing my page and I hope to hear from you soon!",
-      "technologies": ["JavaScript", "React", "Firebase"]
+      "technologies": ["JavaScript", "React", "Material UI", "Firebase"]
     }
   ]
 }
-
