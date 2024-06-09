@@ -8,7 +8,7 @@ const boxStyle = {
 
 function ProjectPane() {
   return (
-    <Box sx={boxStyle}>
+    <Box id="projects" sx={boxStyle}>
       {projectData.data.map((item) => (
         <ProjectPanel data={item} />
       ))}
@@ -17,4 +17,3 @@ function ProjectPane() {
 }
 
 export default ProjectPane;
-
