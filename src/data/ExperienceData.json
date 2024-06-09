@@ -21,12 +21,7 @@
       "time": "May 2020 - August 2021",
       "summary": "Worked on a variety number of projects from frontend to backend to mobile apps.  Consulted on a number of teams providing Agile experience.  Focused primarily on user-facing products.",
       "link": "https://quoininc.com",
-      "technologies": [
-        "JavaScript",
-        "C#",
-        "Java",
-        "Dart"
-      ]
+      "technologies": ["JavaScript", "C#", "Java", "Dart"]
     },
     {
       "title": "Software Engineering Intern",
@@ -34,11 +29,8 @@
       "time": "May 2019 - August 2019",
       "summary": "Assisted in building project reports for end users.  Shadowed with experienced software engineers learning about agile methodologies.  Refactored and optimized scripts for deployment purposes.",
       "link": "http://sawsoftmill.com",
-      "technologies": [
-        "C#",
-        "Bash",
-        "JavaScript"
-      ]
+      "technologies": ["C#", "Bash", "JavaScript"]
     }
   ]
 }
+

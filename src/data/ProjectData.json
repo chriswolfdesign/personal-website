@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "image": "TodoApp.png",
+      "title": "ToDo App",
+      "link": "https://github.com/chriswolfdesign/todo-app",
+      "summary": "A stereotypical todo list application.  Allows you to create, delete, toggle, and modify your todo items for the day.  It even comes with a built-in completion bar!",
+      "technologies": ["JavaScript", "TypeScript", "React", "Docker"]
+    },
+    {
+      "image": "TCPTicTacToe.png",
+      "title": "TCP Tic Tac Toe",
+      "link": "https://github.com/chriswolfdesign/tcp-tic-tac-toe",
+      "summary": "Allows you to play Tic-Tac-Toe over a TCP connection!  It all runs in the command line with an interactive terminal.  Play both sides yourself, or invite a friend to come play with you!",
+      "technologies": ["Go", "TCP", "CLI"]
+    },
+    {
+      "image": "ChrisWolfDesign.png",
+      "title": "Chris Wolf Design",
+      "link": "https://github.com/chriswolfdesign/personal-website",
+      "summary": "The codebase for the webpage you're looking at now!  If you'd like to see how I've generated this page, come take a look!  I hope you have enjoyed browsing my page and I hope to hear from you soon!",
+      "technologies": ["JavaScript", "React", "Firebase"]
+    }
+  ]
+}
+
