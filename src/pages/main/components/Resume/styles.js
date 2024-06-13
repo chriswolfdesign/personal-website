@@ -10,7 +10,7 @@ export const boxStyle = {
 export const hoverBoxStyle = {
   width: "100%",
   marginTop: 5,
-  fontSize: 20,
+  fontSize: 18,
   color: TEXT_TECH_ITEM,
   cursor: "pointer",
 };
