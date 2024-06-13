@@ -25,10 +25,10 @@ function ExperiencePanel(props) {
       onMouseLeave={leave}
       onClick={openLink}
     >
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <Box sx={dateStyle}>{props.data.time}</Box>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={8}>
         <Box sx={hover ? hoverTitleStyle : titleStyle}>
           {props.data.title} | {props.data.company}
         </Box>

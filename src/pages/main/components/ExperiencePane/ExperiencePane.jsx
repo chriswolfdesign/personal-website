@@ -7,7 +7,7 @@ function ExperiencePane() {
   return (
     <Box id="experience" sx={boxStyle}>
       {experienceData.data.map((item) => (
-        <ExperiencePanel data={item} />
+        <ExperiencePanel key={item.title} data={item} />
       ))}
     </Box>
   );

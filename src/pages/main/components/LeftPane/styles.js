@@ -6,5 +6,11 @@ export const paragraphStyles = {
 };
 
 export const boxStyles = {
-  marginLeft: 12,
+  marginLeft: {
+    xs: 2,
+    sm: 2,
+    md: 12,
+    lg: 12,
+    xl: 12,
+  },
 };

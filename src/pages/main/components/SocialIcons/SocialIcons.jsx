@@ -7,13 +7,13 @@ import { gridStyle } from "./styles";
 function SocialIcons() {
   return (
     <Grid sx={gridStyle} container spacing={1}>
-      <Grid item xs={1}>
+      <Grid item>
         <GitHub />
       </Grid>
-      <Grid item xs={1}>
+      <Grid item>
         <LinkedIn />
       </Grid>
-      <Grid item xs={1}>
+      <Grid item>
         <Email />
       </Grid>
     </Grid>

@@ -6,7 +6,7 @@ function TechnologyList(props) {
   return (
     <Grid sx={gridStyles} container spacing={1}>
       {props.technologies.map((item) => (
-        <Grid item xs={3}>
+        <Grid key={`techlist-${item}`} item>
           <TechnologyItem tech={item} />
         </Grid>
       ))}
