@@ -6,11 +6,11 @@ import { gridStyles } from "./styles";
 
 function MainPage() {
   return (
-    <Grid sx={gridStyles} container spacing={2}>
-      <Grid item xs={6}>
+    <Grid container spacing={1} sx={gridStyles}>
+      <Grid item xs>
         <LeftPane />
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs>
         <RightPane />
       </Grid>
     </Grid>

@@ -7,7 +7,7 @@ function ProjectPane() {
   return (
     <Box id="projects" sx={boxStyle}>
       {projectData.data.map((item) => (
-        <ProjectPanel data={item} />
+        <ProjectPanel key={item.title} data={item} />
       ))}
     </Box>
   );

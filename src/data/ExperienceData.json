@@ -19,7 +19,7 @@
       "title": "Fullstack Software Engineer",
       "company": "Quoin Inc",
       "time": "May 2020 - August 2021",
-      "summary": "Worked on a variety number of projects from frontend to backend to mobile apps.  Consulted on a number of teams providing Agile experience.  Focused primarily on user-facing products.",
+      "summary": "Worked on a variety of projects from frontend to backend to mobile apps.  Consulted on a number of teams providing Agile experience.  Focused primarily on user-facing products.",
       "link": "https://quoininc.com",
       "technologies": ["JavaScript", "C#", "Java", "Dart"]
     },
@@ -33,4 +33,3 @@
     }
   ]
 }
-

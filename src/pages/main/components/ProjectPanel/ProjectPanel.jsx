@@ -24,7 +24,7 @@ function ProjectPanel(props) {
       onMouseLeave={leave}
       onClick={openLink}
     >
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <Box
           component="img"
           sx={imageStyle}
@@ -32,7 +32,7 @@ function ProjectPanel(props) {
           src={props.data.image}
         />
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6}>
         <Box sx={hover ? hoverTitleStyle : titleStyle}>{props.data.title}</Box>
         <Box sx={summaryStyle}>{props.data.summary}</Box>
         <Box>

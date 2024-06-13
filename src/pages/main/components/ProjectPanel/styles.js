@@ -6,9 +6,22 @@ import {
 } from "../../../../constants/colors";
 
 export const imageStyle = {
-  height: 75,
+  height: {
+    xs: 0,
+    sm: 0,
+    md: 75,
+    lg: 75,
+    xl: 75,
+  },
   width: 75,
   borderRadius: "5%",
+  visibility: {
+    xs: "hidden",
+    sm: "hidden",
+    md: "visible",
+    lg: "visible",
+    xl: "visible",
+  },
 };
 
 export const gridStyle = {
