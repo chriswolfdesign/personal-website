@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import experienceData from "../../../../data/ExperienceData.json";
 import ExperiencePanel from "../ExperiencePanel";
+import Resume from "../Resume";
 import { boxStyle } from "./styles";
 
 function ExperiencePane() {
@@ -9,6 +10,7 @@ function ExperiencePane() {
       {experienceData.data.map((item) => (
         <ExperiencePanel data={item} />
       ))}
+      <Resume />
     </Box>
   );
 }
