@@ -1,3 +1,3 @@
 export const gridStyles = {
-  marginTop: 8,
+  marginTop: 2,
 };
